@@ -6,7 +6,6 @@ public class Main {
         System.out.println(Texts.invitation);
         int rand = new Random().nextInt(100);
         int tries = 5;
-        System.out.println(rand);
 
         while (true) {
             System.out.println(Texts.rules);
